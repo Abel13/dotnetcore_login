@@ -1,0 +1,24 @@
+﻿<Application x:Class="HelloDotNetCore.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:HelloDotNetCore"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <ResourceDictionary>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Light.xaml" />
+                <ResourceDictionary Source="pack://application:,,,/MaterialDesignThemes.Wpf;component/Themes/MaterialDesignTheme.Defaults.xaml" />
+            </ResourceDictionary.MergedDictionaries>
+            <!--Primary-->
+            <SolidColorBrush x:Key="PrimaryHueLightBrush" Color="#FFCDD2"/>
+            <SolidColorBrush x:Key="PrimaryHueLightForegroundBrush" Color="#FF333333"/>
+            <SolidColorBrush x:Key="PrimaryHueMidBrush" Color="#f44336"/>
+            <SolidColorBrush x:Key="PrimaryHueMidForegroundBrush" Color="#FFEEEEEE"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkBrush" Color="#b71c1c"/>
+            <SolidColorBrush x:Key="PrimaryHueDarkForegroundBrush" Color="#FFFFFFFF"/>
+            <!--Accent-->
+            <SolidColorBrush x:Key="SecondaryAccentBrush" Color="#ff1744"/>
+            <SolidColorBrush x:Key="SecondaryAccentForegroundBrush" Color="#FFFFFF"/>
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
